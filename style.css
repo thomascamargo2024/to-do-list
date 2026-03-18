@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.container{
+    width: 100vw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    
+}
+
+.adicionarTarefa {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.mostrarTarefas {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#digitarTarefas {
+   width: 100%;  
+   padding: 10px;
+   border: none;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.233);
+}
+
+#botaoAdicionar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.spanImg {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spanImg:hover {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#paragrafo-tarefa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.212);
+    padding: 10px;
+    align-items: center;
+}
+
+#paragrafo-tarefa:hover{
+    background-color: rgba(255, 61, 245, 0.575);
+}
+
+img{
+    width: 20px;
+    cursor: pointer;
+}
